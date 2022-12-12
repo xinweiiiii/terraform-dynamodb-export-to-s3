@@ -11,5 +11,8 @@ This terraform source code will provision a lambda function that is trigger by a
 2. Fill in the variables value in `dev.tfvars` 
 3. Run `terraform apply -var-file=dev.tfvars`
 
+## Sample exported file structure in S3
+
+
 ## Conclusion
-You can read up more on the implementation over here - 
+You can read up more on the implementation over here - https://medium.com/@xinweiiiii/export-aws-dynamodb-data-to-s3-on-a-recurring-basis-using-lambda-198d290c8e64

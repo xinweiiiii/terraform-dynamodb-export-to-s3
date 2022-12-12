@@ -16,7 +16,7 @@ exports.handler = async (event) => {
 
     try {
         const exportResponse = await dynamodb.exportTableToPointInTime(params).promise();
-        console.log(`successfully extract data ${exportResponse}`)
+        console.log(`successfully extract data ${JSON.stringify(exportResponse)}`)
     } catch (err) {
         console.log(err)
     }
